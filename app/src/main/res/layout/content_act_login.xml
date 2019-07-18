@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kate"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActLogin"
+    tools:showIn="@layout/act_login">
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="166dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/yi"
+        android:translationY="30dp" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF"
+        android:textStyle="italic"
+        android:translationY="35dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:singleLine="true"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FFFFFFFF"
+        android:textStyle="italic"
+        android:translationY="35dp" />
+
+    <Button
+        android:id="@+id/tvv_inicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/tvv_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Registrar"
+        android:textColor="#FFFFFFFF"
+        android:textSize="17sp"
+        android:translationX="172sp"
+        android:translationY="80sp" />
+
+
+</LinearLayout>

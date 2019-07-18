@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kateeeee"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icono"
+        android:translationX="10dp"
+        android:translationY="120dp" />
+
+    <TextView
+        android:id="@+id/t_text"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="horizontal"
+        android:text="Sweet App"
+        android:textColor="#FFFFFFFF"
+        android:textSize="40dp"
+        android:translationX="-235dp"
+        android:translationY="80dp"
+        android:typeface="serif" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SweetApp</string>
+    <string name="title_activity_act_login">ActLogin</string>
+    <string name="title_activity_act_main">ActMain</string>
+    <string name="title_activity_act_nuevo_producto">ActNuevoProducto</string>
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="title_activity_act_consultar">ActConsultar</string>
+    <string name="title_activity_act_formato_fila">ActFormatoFila</string>
+    <string name="title_activity_act_modificar">ActModificar</string>
+</resources>
